@@ -55,7 +55,19 @@ public class StudentService {
     /* TODO : update Student */
 
     public void deleteStudent(String studentId) {
+        Optional<Student> optionalStudent = studentRepository.findByStudentId(studentId);
 
+        if (optionalStudent.isPresent()) {
+            Student student = optionalStudent.get();
+
+            List<Activity> activities = activityRepository.findAllByStudentIdOrderById(student.getId());
+
+            for (Activity activity : activities) {
+                activityRepository.delete(activity);
+            }
+
+            studentRepository.delete(student);
+        }
     }
 
     public List<ActivityResponseData> getActivity(String studentId) {
