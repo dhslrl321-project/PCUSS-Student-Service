@@ -48,7 +48,7 @@ public class AuthenticationFilter extends BasicAuthenticationFilter {
             roles.add(user);
             /* User-Service 에 OpenFeign 으로 Role 받아오기 */
 
-            List<Role> roless = userServiceClient.getRoles(userId);
+//            List<Role> roless = userServiceClient.getRoles(userId);
 
 
             Authentication customUserAuthentication = new CustomUserAuthentication(

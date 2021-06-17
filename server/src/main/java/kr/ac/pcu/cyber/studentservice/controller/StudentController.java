@@ -36,7 +36,7 @@ public class StudentController {
     }
 
     @PostMapping(produces = "application/json; charset-utf8")
-    @PreAuthorize("isAuthenticated() and hasAnyAuthority('USER', 'ADMIN')")
+    @PreAuthorize("isAuthenticated() and hasAnyAuthority('ADMIN')")
     public ResponseEntity<?> addStudent(@RequestBody List<StudentRequestData> students) {
         studentService.addStudent(students);
         return ResponseEntity.status(HttpStatus.CREATED).build();

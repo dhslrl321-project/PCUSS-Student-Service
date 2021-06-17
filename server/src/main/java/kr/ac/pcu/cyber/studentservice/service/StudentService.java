@@ -112,7 +112,9 @@ public class StudentService {
     /* TODO : update Activity */
 
     public void deleteActivity(Long activityId) {
+        Optional<Activity> optionalActivity = activityRepository.findById(activityId);
 
+        optionalActivity.ifPresent(activityRepository::delete);
     }
 
     private boolean isStudent(String studentId) {
