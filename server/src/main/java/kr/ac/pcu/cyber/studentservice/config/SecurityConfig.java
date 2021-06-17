@@ -1,5 +1,6 @@
 package kr.ac.pcu.cyber.studentservice.config;
 
+import kr.ac.pcu.cyber.studentservice.client.UserServiceClient;
 import kr.ac.pcu.cyber.studentservice.filter.AuthenticationErrorFilter;
 import kr.ac.pcu.cyber.studentservice.filter.AuthenticationFilter;
 import kr.ac.pcu.cyber.studentservice.service.AuthenticationService;
@@ -18,9 +19,11 @@ import javax.servlet.Filter;
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     private final AuthenticationService authenticationService;
+    private final UserServiceClient userServiceClient;
 
-    public SecurityConfig(AuthenticationService authenticationService) {
+    public SecurityConfig(AuthenticationService authenticationService, UserServiceClient userServiceClient) {
         this.authenticationService = authenticationService;
+        this.userServiceClient = userServiceClient;
     }
 
     @Override
@@ -28,7 +31,8 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         Filter authenticationFilter = new AuthenticationFilter(
                 authenticationManager(),
-                authenticationService
+                authenticationService,
+                userServiceClient
         );
 
         Filter authenticationErrorFilter = new AuthenticationErrorFilter();

@@ -1,5 +1,6 @@
 package kr.ac.pcu.cyber.studentservice.filter;
 
+import kr.ac.pcu.cyber.studentservice.client.UserServiceClient;
 import kr.ac.pcu.cyber.studentservice.common.Role;
 import kr.ac.pcu.cyber.studentservice.common.RoleType;
 import kr.ac.pcu.cyber.studentservice.security.CustomUserAuthentication;
@@ -21,10 +22,12 @@ import java.util.List;
 public class AuthenticationFilter extends BasicAuthenticationFilter {
 
     private final AuthenticationService authenticationService;
+    private final UserServiceClient userServiceClient;
 
-    public AuthenticationFilter(AuthenticationManager authenticationManager, AuthenticationService authenticationService) {
+    public AuthenticationFilter(AuthenticationManager authenticationManager, AuthenticationService authenticationService, UserServiceClient userServiceClient) {
         super(authenticationManager);
         this.authenticationService = authenticationService;
+        this.userServiceClient = userServiceClient;
     }
 
     @Override
@@ -44,6 +47,9 @@ public class AuthenticationFilter extends BasicAuthenticationFilter {
             roles.add(admin);
             roles.add(user);
             /* User-Service 에 OpenFeign 으로 Role 받아오기 */
+
+            List<Role> roless = userServiceClient.getRoles(userId);
+
 
             Authentication customUserAuthentication = new CustomUserAuthentication(
                     userId,

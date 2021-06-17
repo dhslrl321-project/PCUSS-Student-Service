@@ -13,9 +13,9 @@ public class CookieUtil {
         String cookieName;
 
         if (tokenType.equals(TokenType.ACCESS_TOKEN)) {
-            cookieName = String.valueOf(TokenType.ACCESS_TOKEN);
+            cookieName = String.valueOf(TokenType.ACCESS_TOKEN).toLowerCase();
         } else if (tokenType.equals(TokenType.REFRESH_TOKEN)) {
-            cookieName = String.valueOf(TokenType.REFRESH_TOKEN);
+            cookieName = String.valueOf(TokenType.REFRESH_TOKEN).toLowerCase();
         } else {
             cookieName = "empty";
         }
