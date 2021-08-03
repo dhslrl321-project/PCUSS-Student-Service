@@ -23,8 +23,50 @@ ext {
 }
 
 dependencies {
+    // spring web service
     implementation 'org.springframework.boot:spring-boot-starter-web-services'
+
+    // actuator
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+
+    // jpa
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    // h2 db
+    runtimeOnly 'com.h2database:h2'
+
+    // security
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+
+    // validation
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+
+    // model mapper
+    implementation 'org.modelmapper:modelmapper:2.4.0'
+
+    // jwt
+    implementation 'io.jsonwebtoken:jjwt-api:0.11.2'
+    implementation 'io.jsonwebtoken:jjwt-impl:0.11.2'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.11.2'
+
+    // cloud
+    implementation 'org.springframework.cloud:spring-cloud-starter'
+
+    // config
+    implementation 'org.springframework.cloud:spring-cloud-starter-config'
+
+    // bootstrap
+    implementation 'org.springframework.cloud:spring-cloud-starter-bootstrap'
+
+//    // bus
+//    implementation 'org.springframework.cloud:spring-cloud-starter-bus-amqp'
+
+    // eureka client
     implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+
+    // open feign
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
