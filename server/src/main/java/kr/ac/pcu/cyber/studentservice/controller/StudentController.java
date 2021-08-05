@@ -29,9 +29,9 @@ public class StudentController {
 
 
 
-    @GetMapping(value = "/{grade}", produces = "application/json; charset-utf8")
-    public ResponseEntity<Slice<StudentResponseData>> getStudents(@PathVariable("grade") String grade) {
-        return ResponseEntity.ok(studentService.getStudents(grade));
+    @GetMapping(value = "/{grade}/{page}", produces = "application/json; charset-utf8")
+    public ResponseEntity<Slice<StudentResponseData>> getStudents(@PathVariable("grade") String grade, @PathVariable("page") String page) {
+        return ResponseEntity.ok(studentService.getStudents(grade, page));
     }
 
     @PostMapping(produces = "application/json; charset-utf8")
