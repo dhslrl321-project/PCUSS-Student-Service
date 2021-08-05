@@ -1,97 +1,98 @@
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미1', '1484001', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미2', '1484002', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미3', '1484003', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미4', '1484004', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미5', '1484005', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미6', '1484006', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미7', '1484007', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미8', '1484008', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미9', '1484009', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미10', '1484010', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '1484001', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '1484002', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '1484003', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미4', '1484004', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '1484005', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '1484005', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미6', '1484006', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '1484007', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '1484008', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '1484009', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '1484010', 0);
 
 
-INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미1', '1584001', 1);
-INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미2', '1584002', 1);
-INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미3', '1584003', 1);
-INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미4', '1584004', 1);
-INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미5', '1584005', 1);
-INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미6', '1584006', 1);
-INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미7', '1584007', 1);
-INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미8', '1584008', 1);
-INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미9', '1584009', 1);
-INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미10', '1584010', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '1584001', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '1584002', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '1584003', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미4', '1584004', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '1584005', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미6', '1584006', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '1584007', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '1584008', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '1584009', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '1584010', 1);
 
 
-INSERT INTO Student(name, student_id, total_number) VALUES ('16학번 더미1', '1684001', 2);
-INSERT INTO Student(name, student_id, total_number) VALUES ('16학번 더미2', '1684002', 2);
-INSERT INTO Student(name, student_id, total_number) VALUES ('16학번 더미3', '1684003', 2);
-INSERT INTO Student(name, student_id, total_number) VALUES ('16학번 더미4', '1684004', 2);
-INSERT INTO Student(name, student_id, total_number) VALUES ('16학번 더미5', '1684005', 2);
-INSERT INTO Student(name, student_id, total_number) VALUES ('16학번 더미6', '1684006', 2);
-INSERT INTO Student(name, student_id, total_number) VALUES ('16학번 더미7', '1684007', 2);
-INSERT INTO Student(name, student_id, total_number) VALUES ('16학번 더미8', '1684008', 2);
-INSERT INTO Student(name, student_id, total_number) VALUES ('16학번 더미9', '1684009', 2);
-INSERT INTO Student(name, student_id, total_number) VALUES ('16학번 더미10', '1684010', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '1684001', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '1684002', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '1684003', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미4', '1684004', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '1684005', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미6', '1684006', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '1684007', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '1684008', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '1684009', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '1684010', 2);
 
 
-INSERT INTO Student(name, student_id, total_number) VALUES ('17학번 더미1', '1784001', 3);
-INSERT INTO Student(name, student_id, total_number) VALUES ('17학번 더미2', '1784002', 3);
-INSERT INTO Student(name, student_id, total_number) VALUES ('17학번 더미3', '1784003', 3);
-INSERT INTO Student(name, student_id, total_number) VALUES ('17학번 더미4', '1784004', 3);
-INSERT INTO Student(name, student_id, total_number) VALUES ('17학번 더미5', '1784005', 3);
-INSERT INTO Student(name, student_id, total_number) VALUES ('17학번 더미6', '1784006', 3);
-INSERT INTO Student(name, student_id, total_number) VALUES ('17학번 더미7', '1784007', 3);
-INSERT INTO Student(name, student_id, total_number) VALUES ('17학번 더미8', '1784008', 3);
-INSERT INTO Student(name, student_id, total_number) VALUES ('17학번 더미9', '1784009', 3);
-INSERT INTO Student(name, student_id, total_number) VALUES ('17학번 더미10', '1784010', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '1784001', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '1784002', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '1784003', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미4', '1784004', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '1784005', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미6', '1784006', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '1784007', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '1784008', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '1784009', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '1784010', 3);
 
 
-INSERT INTO Student(name, student_id, total_number) VALUES ('18학번 더미1', '1884001', 4);
-INSERT INTO Student(name, student_id, total_number) VALUES ('18학번 더미2', '1884002', 4);
-INSERT INTO Student(name, student_id, total_number) VALUES ('18학번 더미3', '1884003', 4);
-INSERT INTO Student(name, student_id, total_number) VALUES ('18학번 더미4', '1884004', 4);
-INSERT INTO Student(name, student_id, total_number) VALUES ('18학번 더미5', '1884005', 4);
-INSERT INTO Student(name, student_id, total_number) VALUES ('18학번 더미6', '1884006', 4);
-INSERT INTO Student(name, student_id, total_number) VALUES ('18학번 더미7', '1884007', 4);
-INSERT INTO Student(name, student_id, total_number) VALUES ('18학번 더미8', '1884008', 4);
-INSERT INTO Student(name, student_id, total_number) VALUES ('18학번 더미9', '1884009', 4);
-INSERT INTO Student(name, student_id, total_number) VALUES ('18학번 더미10', '1884010', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '1884001', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '1884002', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '1884003', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미4', '1884004', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '1884005', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미6', '1884006', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '1884007', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '1884008', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '1884009', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '1884010', 4);
 
 
-INSERT INTO Student(name, student_id, total_number) VALUES ('19학번 더미1', '1984001', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('19학번 더미2', '1984002', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('19학번 더미3', '1984003', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('19학번 더미4', '1984004', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('19학번 더미5', '1984005', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('19학번 더미6', '1984006', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('19학번 더미7', '1984007', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('19학번 더미8', '1984008', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('19학번 더미9', '1984009', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('19학번 더미10', '1984010', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '1984001', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '1984002', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '1984003', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미4', '1984004', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '1984005', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미6', '1984006', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '1984007', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '1984008', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '1984009', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '1984010', 5);
 
 
-INSERT INTO Student(name, student_id, total_number) VALUES ('20학번 더미1', '2084001', 6);
-INSERT INTO Student(name, student_id, total_number) VALUES ('20학번 더미2', '2084002', 6);
-INSERT INTO Student(name, student_id, total_number) VALUES ('20학번 더미3', '2084003', 6);
-INSERT INTO Student(name, student_id, total_number) VALUES ('20학번 더미4', '2084004', 6);
-INSERT INTO Student(name, student_id, total_number) VALUES ('20학번 더미5', '2084005', 6);
-INSERT INTO Student(name, student_id, total_number) VALUES ('20학번 더미6', '2084006', 6);
-INSERT INTO Student(name, student_id, total_number) VALUES ('20학번 더미7', '2084007', 6);
-INSERT INTO Student(name, student_id, total_number) VALUES ('20학번 더미8', '2084008', 6);
-INSERT INTO Student(name, student_id, total_number) VALUES ('20학번 더미9', '2084009', 6);
-INSERT INTO Student(name, student_id, total_number) VALUES ('20학번 더미10', '2084010', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '2084001', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '2084002', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '2084003', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미4', '2084004', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '2084005', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미6', '2084006', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '2084007', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '2084008', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '2084009', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '2084010', 6);
 
 
-INSERT INTO Student(name, student_id, total_number) VALUES ('21학번 더미1', '2184001', 7);
-INSERT INTO Student(name, student_id, total_number) VALUES ('21학번 더미2', '2184002', 7);
-INSERT INTO Student(name, student_id, total_number) VALUES ('21학번 더미3', '2184003', 7);
-INSERT INTO Student(name, student_id, total_number) VALUES ('21학번 더미4', '2184004', 7);
-INSERT INTO Student(name, student_id, total_number) VALUES ('21학번 더미5', '2184005', 7);
-INSERT INTO Student(name, student_id, total_number) VALUES ('21학번 더미6', '2184006', 7);
-INSERT INTO Student(name, student_id, total_number) VALUES ('21학번 더미7', '2184007', 7);
-INSERT INTO Student(name, student_id, total_number) VALUES ('21학번 더미8', '2184008', 7);
-INSERT INTO Student(name, student_id, total_number) VALUES ('21학번 더미9', '2184009', 7);
-INSERT INTO Student(name, student_id, total_number) VALUES ('21학번 더미10', '2184010', 7);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '2184001', 7);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '2184002', 7);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '2184003', 7);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미4', '2184004', 7);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '2184005', 7);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미6', '2184006', 7);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '2184007', 7);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '2184008', 7);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '2184009', 7);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '2184010', 7);
 
 
 
