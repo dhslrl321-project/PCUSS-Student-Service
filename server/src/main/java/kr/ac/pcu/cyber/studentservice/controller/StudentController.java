@@ -30,7 +30,6 @@ public class StudentController {
 
 
     @GetMapping(value = "/{grade}", produces = "application/json; charset-utf8")
-    @PreAuthorize("isAuthenticated() and hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<Slice<StudentResponseData>> getStudents(@PathVariable("grade") String grade) {
         return ResponseEntity.ok(studentService.getStudents(grade));
     }
@@ -61,7 +60,6 @@ public class StudentController {
 
 
     @GetMapping(value = "/activity/{student_id}", produces = "application/json; charset-utf8")
-    @PreAuthorize("isAuthenticated() and hasAnyAuthority('USER', 'ADMIN')")
     public ResponseEntity<List<ActivityResponseData>> getActivity(@PathVariable("student_id") String studentId) {
         return ResponseEntity.ok(studentService.getActivity(studentId));
     }
