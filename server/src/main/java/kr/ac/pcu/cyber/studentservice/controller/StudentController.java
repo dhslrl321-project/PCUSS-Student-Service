@@ -2,6 +2,7 @@ package kr.ac.pcu.cyber.studentservice.controller;
 
 import kr.ac.pcu.cyber.studentservice.model.dto.*;
 import kr.ac.pcu.cyber.studentservice.service.StudentService;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -29,9 +30,9 @@ public class StudentController {
 
 
 
-    @GetMapping(value = "/{grade}/{page}", produces = "application/json; charset-utf8")
-    public ResponseEntity<Slice<StudentResponseData>> getStudents(@PathVariable("grade") String grade, @PathVariable("page") String page) {
-        return ResponseEntity.ok(studentService.getStudents(grade, page));
+    @GetMapping(value = "/{grade}", produces = "application/json; charset-utf8")
+    public ResponseEntity<Slice<StudentResponseData>> getStudents(@PathVariable("grade") String grade, Pageable pageable) {
+        return ResponseEntity.ok(studentService.getStudents(grade, pageable));
     }
 
     @PostMapping(produces = "application/json; charset-utf8")

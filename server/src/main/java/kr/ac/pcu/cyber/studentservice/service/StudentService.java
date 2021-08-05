@@ -8,6 +8,7 @@ import kr.ac.pcu.cyber.studentservice.repository.ActivityRepository;
 import kr.ac.pcu.cyber.studentservice.repository.StudentRepository;
 import org.modelmapper.ModelMapper;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Slice;
 import org.springframework.stereotype.Service;
 
@@ -37,9 +38,8 @@ public class StudentService {
         }
     }
 
-    public Slice<StudentResponseData> getStudents(String grade, String page) {
-        PageRequest pageRequest = PageRequest.of(Integer.parseInt(page), 10);
-        Slice<Student> students = studentRepository.findByStudentIdStartsWithOrderByStudentId(grade, pageRequest);
+    public Slice<StudentResponseData> getStudents(String grade, Pageable pageable) {
+        Slice<Student> students = studentRepository.findByStudentIdStartsWith(grade, pageable);
 
         return students.map(student -> modelMapper.map(student, StudentResponseData.class));
     }
