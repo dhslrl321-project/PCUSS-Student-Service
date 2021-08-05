@@ -1,13 +1,10 @@
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미1', '1484001', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미2', '1484002', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미3', '1484003', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미4', '1484004', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미5', '1484005', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미6', '1484006', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미7', '1484007', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미8', '1484008', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미9', '1484009', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('14학번 더미10', '1484010', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('김홍철', '1484001', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('김상수', '1484002', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('최혁주', '1484003', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('김성민', '1484004', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('유상철', '1484005', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('임지석', '1484006', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('윤철진', '1484007', 0);
 
 
 INSERT INTO Student(name, student_id, total_number) VALUES ('15학번 더미1', '1584001', 1);
