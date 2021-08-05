@@ -9,5 +9,5 @@ import java.util.Optional;
 
 public interface StudentRepository extends JpaRepository<Student, Long> {
     Optional<Student> findByStudentId(String studentId);
-    Slice<Student> findByStudentIdStartsWithOrderByStudentId(String studentId, Pageable pageable);
+    Slice<Student> findByStudentIdStartsWith(String studentId, Pageable pageable);
 }
