@@ -68,7 +68,21 @@ INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '1984007'
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '1984008', 5);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '1984009', 5);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '1984010', 5);
-
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미11', '1984005', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미12', '1984006', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미13', '1984007', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미14', '1984008', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미15', '1984009', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미16', '1984010', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미17', '1984010', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미18', '1984008', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미19', '1984009', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미20', '1984010', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미21', '1984010', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미22', '1984008', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미23', '1984009', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미24', '1984010', 5);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미25', '1984010', 5);
 
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '2084001', 6);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '2084002', 6);
