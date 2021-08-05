@@ -37,8 +37,8 @@ public class StudentService {
         }
     }
 
-    public Slice<StudentResponseData> getStudents(String grade) {
-        PageRequest pageRequest = PageRequest.of(0, 10);
+    public Slice<StudentResponseData> getStudents(String grade, String page) {
+        PageRequest pageRequest = PageRequest.of(Integer.parseInt(page), 10);
         Slice<Student> students = studentRepository.findByStudentIdStartsWithOrderByStudentId(grade, pageRequest);
 
         return students.map(student -> modelMapper.map(student, StudentResponseData.class));
