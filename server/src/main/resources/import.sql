@@ -410,7 +410,7 @@ INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더
 INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더미 활동3', '더미 결과3');
 INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더미 활동4', '더미 결과4');
 INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더미 활동5', '더미 결과5');
-INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더미 활동6', '더미 결과6');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더미 활동6', '더미 결과6');ㅇ
 
 
 

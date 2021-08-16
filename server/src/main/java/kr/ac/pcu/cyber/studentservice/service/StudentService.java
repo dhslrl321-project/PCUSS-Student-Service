@@ -7,13 +7,11 @@ import kr.ac.pcu.cyber.studentservice.model.entity.Student;
 import kr.ac.pcu.cyber.studentservice.repository.ActivityRepository;
 import kr.ac.pcu.cyber.studentservice.repository.StudentRepository;
 import org.modelmapper.ModelMapper;
-import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Slice;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
@@ -38,8 +36,8 @@ public class StudentService {
         }
     }
 
-    public Slice<StudentResponseData> getStudents(String grade, Pageable pageable) {
-        Slice<Student> students = studentRepository.findByStudentIdStartsWith(grade, pageable);
+    public Page<StudentResponseData> getStudents(String grade, Pageable pageable) {
+        Page<Student> students = studentRepository.findByStudentIdStartsWith(grade, pageable);
 
         return students.map(student -> modelMapper.map(student, StudentResponseData.class));
     }
