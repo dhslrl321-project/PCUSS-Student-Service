@@ -69,7 +69,6 @@ INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '1984008'
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '1984009', 5);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '1984010', 5);
 
-
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '2084001', 6);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '2084002', 6);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '2084003', 6);
