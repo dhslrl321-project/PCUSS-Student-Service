@@ -68,21 +68,6 @@ INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '1984007'
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '1984008', 5);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '1984009', 5);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '1984010', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미11', '1984005', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미12', '1984006', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미13', '1984007', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미14', '1984008', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미15', '1984009', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미16', '1984010', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미17', '1984010', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미18', '1984008', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미19', '1984009', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미20', '1984010', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미21', '1984010', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미22', '1984008', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미23', '1984009', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미24', '1984010', 5);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미25', '1984010', 5);
 
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '2084001', 6);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '2084002', 6);
@@ -206,16 +191,16 @@ INSERT INTO Activity(student_id, activity_name, result) VALUES (10, '1484010 더
 INSERT INTO Activity(student_id, activity_name, result) VALUES (10, '1484010 더미 활동7', '더미 결과7');
 
 
-INSERT INTO Activity(student_id, activity_name, result) VALUES (11, '1584001 더미 활동1', '더미 결과1');
-INSERT INTO Activity(student_id, activity_name, result) VALUES (12, '1584002 더미 활동1', '더미 결과1');
-INSERT INTO Activity(student_id, activity_name, result) VALUES (13, '1584003 더미 활동1', '더미 결과1');
-INSERT INTO Activity(student_id, activity_name, result) VALUES (14, '1584004 더미 활동1', '더미 결과1');
-INSERT INTO Activity(student_id, activity_name, result) VALUES (15, '1584005 더미 활동1', '더미 결과1');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (11, '1584001 더미 활동1', '해당 활동의 결과는 F 학점으로 이어지게 되었습니다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (12, '1584002 더미 활동1', '해당 활동은 수익을 얻었으며 이 수익으로 야무지개 컵라면을 먹었습니다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (13, '1584003 더미 활동1', '해당 활동을 하다가 혈압이 올라서 병원에 입원하게 되었습니다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (14, '1584004 더미 활동1', '뭐라고 더 써야할지 모르겠지만 최대한 글자 수를 늘려보려고 노력하는 중입니다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (15, '1584005 더미 활동1', '가나다라마바사아자차카타파하갸냐댜랴먀뱌샤야쟈챠캬탸퍄햐거너더러머버서어저처커터퍼허우끼끼끼');
 INSERT INTO Activity(student_id, activity_name, result) VALUES (16, '1584006 더미 활동1', '더미 결과1');
 INSERT INTO Activity(student_id, activity_name, result) VALUES (17, '1584007 더미 활동1', '더미 결과1');
 INSERT INTO Activity(student_id, activity_name, result) VALUES (18, '1584008 더미 활동1', '더미 결과1');
 INSERT INTO Activity(student_id, activity_name, result) VALUES (19, '1584009 더미 활동1', '더미 결과1');
-INSERT INTO Activity(student_id, activity_name, result) VALUES (20, '1584010 더미 활동1', '더미 결과1');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (20, '1584010 더미 활동1', '더미 결과끼1');
 
 
 INSERT INTO Activity(student_id, activity_name, result) VALUES (21, '1684001 더미 활동1', '더미 결과1');
