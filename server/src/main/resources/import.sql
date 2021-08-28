@@ -81,14 +81,14 @@ INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '2084009'
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '2084010', 6);
 
 
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '2184001', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '2184002', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '2184003', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미4', '2184004', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '2184005', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미6', '2184006', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '2184007', 0);
-INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '2184008', 0);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미1', '2184001', 16);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미2', '2184002', 1);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미3', '2184003', 2);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미4', '2184004', 3);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미5', '2184005', 4);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미6', '2184006', 6);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미7', '2184007', 8);
+INSERT INTO Student(name, student_id, total_number) VALUES ('더미8', '2184008', 18);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미9', '2184009', 0);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미10', '2184010', 0);
 INSERT INTO Student(name, student_id, total_number) VALUES ('더미11', '2184011', 0);
@@ -409,7 +409,77 @@ INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더
 INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더미 활동3', '더미 결과3');
 INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더미 활동4', '더미 결과4');
 INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더미 활동5', '더미 결과5');
-INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더미 활동6', '더미 결과6');ㅇ
+INSERT INTO Activity(student_id, activity_name, result) VALUES (70, '2084010 더미 활동6', '더미 결과6');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (71, '어디가서 뭘 했다.', '좋은 결과를 얻어서 행복했다.');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (72, '밥먹음.', '굳');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (73, '친구들이랑 메이플 했음', '조하씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (73, '조하씀', '인생은 씀');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (74, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (74, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (74, '조하씀', '인생은 씀');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (75, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (75, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (75, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (75, '조하씀', '인생은 씀');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (76, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (76, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (76, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (76, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (76, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (76, '조하씀', '인생은 씀');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (77, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (77, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (77, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (77, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (77, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (77, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (77, '조하씀', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (77, '조하씀', '인생은 씀');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '좋은 결과를 얻어서 행복했다.좋은 결과를 얻어서 행복했다.좋은 결과를 얻.', '인생은 씀좋은 결과를 얻어서 행복했다.좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀좋은 결과를 얻어서 행복했다.좋은 결과를 얻어서 행복했다.', '인생은 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 씀좋은 결과를 얻어서 행복했다.좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 좋은 결과를 얻어서 행복했다.씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 씀좋은 결과를 얻어서 행복했다.');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은좋은 결과를 얻어서 행복했다. 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 좋은 결과를 얻어서 행복했다.씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 씀좋은 결과를 얻어서 행복했다.');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은좋은 결과를 얻어서 행복했다. 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 좋은 결과를 얻어서 행복했다.씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 씀좋은 결과를 얻어서 행복했다.');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은좋은 결과를 얻어서 행복했다. 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 좋은 결과를 얻어서 행복했다.씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 씀좋은 결과를 얻어서 행복했다.');
+
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은좋은 결과를 얻어서 행복했다. 씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 좋은 결과를 얻어서 행복했다.씀');
+INSERT INTO Activity(student_id, activity_name, result) VALUES (78, '조하씀', '인생은 씀좋은 결과를 얻어서 행복했다.');
+
 
 
 
